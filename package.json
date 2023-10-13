@@ -1,0 +1,16 @@
+{
+  "name": "automacaoapi-cypres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "devDependencies": {
+    "chai-json-schema": "^1.5.1",
+    "cypress": "^13.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
