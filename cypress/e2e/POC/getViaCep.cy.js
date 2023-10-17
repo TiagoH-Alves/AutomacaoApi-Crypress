@@ -8,7 +8,7 @@ describe('Validação de API', () => {
     required: ['cep', 'logradouro', 'complemento', 'bairro', 'localidade', 'uf', 'ibge', 'gia', 'ddd', 'siafi'],
     properties: {
       cep: {
-        type: 'number'
+        type: 'string'
       },
       logradouro: {
         type: 'string'
@@ -67,6 +67,7 @@ describe('Validação de API', () => {
       expect(response.body).to.have.property('gia');
       expect(response.body).to.have.property('ddd');
       expect(response.body).to.have.property('siafi');
+      
     });
   });
 
