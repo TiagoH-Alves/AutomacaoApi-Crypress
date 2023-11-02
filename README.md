@@ -50,11 +50,3 @@ O projeto contém os seguintes testes:
 
 ## Customização
 Você pode personalizar os testes, adicionar novos cenários de teste ou ajustar os cenários existentes de acordo com as necessidades do seu projeto. Os testes são escritos em JavaScript e estão localizados nos arquivos `.spec.js` no diretório `cypress/integration`.
-
-## Contribuição
-Sinta-se à vontade para contribuir com melhorias ou correções para este projeto. Basta abrir uma solicitação de pull.
-
-## Licença
-Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para obter mais detalhes.
-
-Espero que este README seja útil para o seu projeto de teste Cypress que valida a API do ViaCep. Certifique-se de ajustar as instruções e os detalhes para atender às especificidades do seu projeto e à sua organização.
