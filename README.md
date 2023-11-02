@@ -1,5 +1,3 @@
-Claro, aqui está um exemplo de um arquivo README básico para o seu projeto de teste Cypress que valida a API do ViaCep:
-
 # Projeto de Teste Cypress - Validação da API ViaCep
 
 ## Descrição
@@ -15,7 +13,7 @@ Antes de executar os testes, certifique-se de que você tenha o seguinte instala
 1. Clone este repositório em seu computador:
 
    ```shell
-   git clone https://github.com/TiagoH-Alves/AutomacaoApi-Crypress/tree/main#automacaoapi-crypress
+   git clone https://github.com/TiagoH-Alves/AutomacaoApi-Crypress
    ```
 
 2. Navegue até o diretório do projeto:
