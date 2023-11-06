@@ -1,6 +1,7 @@
 import chai from 'chai';
 import chaiJsonSchema from 'chai-json-schema';
 
+const API = Cypress.env('api_viacep')
 chai.use(chaiJsonSchema);
 
 describe('Validação de API', () => {
@@ -43,7 +44,7 @@ describe('Validação de API', () => {
   it('Verifica o Status Code da API', () => {
     cy.request({
       method: 'GET',
-      url: 'https://viacep.com.br/ws/08253000/json/',
+      url: API,
     }).then((response) => {
       // Verifica o Status Code
       expect(response.status).to.eq(200);
